@@ -48,27 +48,38 @@ Git e GitHub (controle de versão)
 
 Vercel (deploy da landing page)
 
-🗂️ Estrutura do Projeto
-landing-page-furia-chatbot/
-│
-├── static/
-│   ├── css/
-│   │   └── style.css          # Estilização geral
-│   ├── js/
-│   │   └── script.js          # Lógica do chatbot
-│   └── img/                   # (Imagens utilizadas no projeto)
-│
-├── index.html                 # Página principal
-└── README.md                  # Documentação do projeto
+## 📁 Estrutura do Projeto
 
-▶️ Como usar o Chatbot (modo local)
-Clone o repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/matvieira7/landing-page-furia-chatbot.git
+
+landing-page-furia-chatbot/
+├── index.html
+├── README.md
+└── static/
+├── css/
+│ └── style.css
+├── js/
+│ └── script.js
+└── img/
+└── [imagens do projeto]
+
+
+
+---
+
+## ▶️ Como executar o Chatbot (modo local)
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/matvieira7/landing-page-furia-chatbot.git
+Acesse a pasta do projeto:
 cd landing-page-furia-chatbot
-abra o arquivo index.html no navegador
+Abra o arquivo index.html no navegador:
+
+Clique duas vezes no arquivo
+ou
+
+Use um servidor estático, como a extensão Live Server do VS Code.
+
 
 💡 Ideias para o futuro
 
