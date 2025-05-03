@@ -11,7 +11,7 @@ body {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/furia-taça.jpg') no-repeat center center/cover;
     position: relative;
     color: white;
-    animation: zoom 20s ease-in-out infinite; /* Restituí a animação de zoom */
+    animation: zoom 20s ease-in-out infinite;
 }
 
 @keyframes zoom {
@@ -51,7 +51,7 @@ body {
     justify-content: center;
     cursor: pointer;
     z-index: 9999;
-    overflow: hidden; /* impede imagem de sair do botão */
+    overflow: hidden; 
   }
   
   #chatbot-btn img {
@@ -64,7 +64,6 @@ body {
     transform: scale(1.1);
   }
 
-  /* ================= Chat Container ================= */
   .hidden {
     display: none !important;
   }
@@ -92,7 +91,7 @@ body {
     margin-bottom: 10px;
     border: none;
     padding: 8px;
-    padding-right: 16px; /* Garante espaço pro scroll */
+    padding-right: 16px; 
     background: #2b2b2b;
     border-radius: 6px;
     font-size: 14px;
@@ -230,17 +229,17 @@ h1, h2, p, a, .card {
 }
 
 #ultimos-jogos .card-title img {
-    width: 100%;    /* Aumenta o tamanho da imagem para ocupar o máximo possível */
-    height: auto;   /* Mantém a proporção da imagem */
+    width: 100%;    
+    height: auto;  
     margin-right: 0.5rem;
-    max-width: 100px;  /* Limita a largura das logos */
-    max-height: 100px; /* Limita a altura das logos */
-    object-fit: contain; /* Garante que a imagem se ajuste sem distorcer */
+    max-width: 100px; 
+    max-height: 100px;
+    object-fit: contain; 
 }
 
 #ultimos-jogos .card-title img:hover {
-    transform: scale(1.2); /* Aumenta a logo quando o mouse passa por cima */
-    transition: transform 0.3s ease-in-out; /* Suaviza o efeito */
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out; 
 }
 
 .navbar .navbar-brand img {
@@ -267,19 +266,19 @@ h1, h2, p, a, .card {
   .team-logo-container {
     position: relative;
     display: inline-block;
-    width: auto; /* Para não restringir o tamanho */
-    height: auto; /* Para não restringir o tamanho */
+    width: auto; 
+    height: auto; 
   }
   
   .team-logo {
-    width: 500px;  /* Agora as logos vão ter 200px de largura */
-    height: 500px; /* Agora as logos vão ter 200px de altura */
+    width: 500px; 
+    height: 500px; 
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
   }
   
   .team-logo-container:hover .team-logo {
-    transform: scale(1.5); /* Aumenta mais o tamanho quando passar o mouse */
+    transform: scale(1.5); 
   }
   
   .tooltip-text {

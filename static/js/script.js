@@ -10,7 +10,6 @@ function toggleChat() {
     chatbotBtn.style.visibility = "hidden";
     chatbotBtn.style.opacity = "0";
 
-    // Mostrar mensagem de boas-vindas do FURIA Bot
     chatBox.innerHTML = `
       <div class="bot-message">
         <strong>FURIA Bot:</strong> Olá! Eu sou o FURIA Bot 🤖<br>
